@@ -1,0 +1,15 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+    <head></head>
+    <body>
+        <h1>thymeleaf test</h1>
+        <ul th:each="bean : ${alist}">
+            <li>
+                <span th:text="${bean.su}"></span>
+                <span th:text="${bean.msg}"></span>
+            </p>
+        </ul>
+    </body>
+</html>
